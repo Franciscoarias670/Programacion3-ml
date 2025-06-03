@@ -65,6 +65,60 @@ nav li a{
   padding: 1.5rem;
   border-radius: 50%;
 }
+/* ------------------- Fran card -------------------- */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.swiper {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.swiper-card {
+  width: 100%;
+  max-width: 18rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.swiper-card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+.btn-warning {
+  border-radius: 20px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #4417ca;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 25px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #4417ca;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #17cac7;
+}
+
+
 
 /* ------------------- estilos de juli anuncios---------------------- */
 .contenedor-beneficios {
